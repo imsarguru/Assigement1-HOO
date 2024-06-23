@@ -1,0 +1,328 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quas Typeface;
+}
+
+body {
+    font-family: Quas Typeface;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for the Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+
+header {
+    background-color: #ececec;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.nav2 {
+    background-image:url(images/combined0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40%;
+    padding-right: 50%;
+    
+}
+.nav2 nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav2 nav a {
+
+color: whitesmoke;
+font-weight: bold;
+}
+/* Hero Section Styles */
+
+.hero {
+    background-image:url(images/combined.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.hero .hero-image {
+    position: relative;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 240px;
+    color: #fff;
+    padding: 10px;
+    border-style: solid;
+}
+.hero h2:hover{
+    background-color: black;
+    border: solid;
+    text-decoration: none;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: x-large;
+}
+/* Essentials Section */
+.essentials h1{
+    font-size: 50px;
+}
+.essentials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.essentials .grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.essentials .btnone{
+    background-color: black;
+    border: solid;
+    text-decoration: none;
+    padding: 10px;
+    
+    color: whitesmoke;
+    font-size: x-large;
+}
+.essentials .btnone:hover {
+    background: whitesmoke;
+    color: black;
+  }
+/* New Arrivals Section */
+.new-arrivals {
+    background: #333;
+    color: #fff;
+    padding: 100px 100px;
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/arr.jpg);
+    background-size:cover;
+    background: position 100px;
+}
+.new-arrivals h1{
+    font-size: 50px;
+    padding: 10px;
+}
+.new-arrivals button {
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.new-arrivals button:hover{
+    background-color: black;
+    border: solid;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: whitesmoke;
+}
+
+/* Best Sellers Section */
+.best-sellers {
+    padding: 50px 20px;
+    text-align: center;
+}
+.best-sellers h1{
+    font-size: 50px;
+}
+.best-sellers .grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.best-sellers .btnone{
+    background-color: black;
+    border: solid;
+    text-decoration: none;
+    padding: 10px;
+    color: whitesmoke;
+    font-size: x-large;
+}
+.best-sellers .btnone:hover {
+    background: whitesmoke;
+    color: black;
+  }/**/
+/* Personalized Trial Room Section */
+.trial-room h1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.trial-room p{
+    color: rgb(0, 0, 0);
+}
+.trial-room {
+    background-image: linear-gradient(rgba( 0,0,0,0.1),rgba( 0,0,0,0.1)),url(images/trail1.jpg);
+    background-size: cover;
+    padding: 50px 20px;
+    text-align: left;
+    padding-left: 15%;
+    padding: 200px;
+}
+.trial-room button1 {
+    background: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.trial-room button1:hover{
+    background: rgb(98, 98, 98);
+    color: whitesmoke;
+}
+/* Charity Section */
+.charity {
+    color:whitesmoke;
+    background-image: linear-gradient(rgba( 0,0,0,0.6),rgba( 0,0,0,0.6)),url(images/ch1.jpg);
+    text-align:bottom left;
+    background-size: cover;
+    padding: 275px;
+}
+.charity h1{
+    text-align: left;
+    font-size: 50px;
+    padding-top: 150px;
+}
+
+/* Subscription Section */
+.subscription {
+    background: #eaeaea;
+    padding: 50px 20px;
+    text-align: center;
+}
+.subscription h1{
+    font-size: 50px;
+}
+.subscription button2 {
+    background: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.subscription button2:hover{
+    background: whitesmoke;
+    color: black;
+}
+.subscription .search-bar1{
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+}
+.subscription .search-bar1 input[type="text"] {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+/* Footer Styles */
+footer {
+    padding: 30px 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #555;
+}
+
+.footer-links h3 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links a {
+    color: #555;
+    text-decoration: none;
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-media img {
+    max-width: 40px;
+    margin: 10 20px;
+}
+.end{
+    text-align: center;
+    color: #555;
+}
